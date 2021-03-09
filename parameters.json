@@ -1,0 +1,85 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "enterpriseScaleCompanyPrefix": {
+            "value": "mvp"
+        },
+        "platformSubscriptionId": {
+            "value": "5b5b79cf-7e6a-4a79-8e41-ea366c866649"
+        },
+        "onlineLzSubscriptionId": {
+            "value": [
+                "7ffa1276-9070-467f-ac5c-ad3402460bd2"
+            ]
+        },
+        "corpLzSubscriptionId": {
+            "value": [
+                "71b9c384-f4e6-494f-97c5-2e71fa6fa3e8"
+            ]
+        },
+        "enableLogAnalytics": {
+            "value": "Yes"
+        },
+        "retentionInDays": {
+            "value": "30"
+        },
+        "enableAsc": {
+            "value": "Standard"
+        },
+        "enableVmMonitoring": {
+            "value": "Yes"
+        },
+        "enableAgentHealth": {
+            "value": "Yes"
+        },
+        "enableChangeTracking": {
+            "value": "Yes"
+        },
+        "enableSqlAudit": {
+            "value": "Yes"
+        },
+        "enableSqlEncryption": {
+            "value": "Yes"
+        },
+        "enableVmBackup": {
+            "value": "Yes"
+        },
+        "denyRdp": {
+            "value": "Yes"
+        },
+        "enableStorageHttps": {
+            "value": "Yes"
+        },
+        "denyIpForwarding": {
+            "value": "Yes"
+        },
+        "denySubnetWithoutNsg": {
+            "value": "Yes"
+        },
+        "addressPrefix": {
+            "value": "10.100.0.0/16"
+        },
+        "enableVpnGw": {
+            "value": "Yes"
+        },
+        "enableErGw": {
+            "value": "Yes"
+        },
+        "location": {
+            "value": "southeastasia"
+        },
+        "enableHub": {
+            "value": "Yes"
+        },
+        "enableAzFw": {
+            "value": "Yes"
+        },
+        "subnetMaskForAzFw": {
+            "value": "10.100.0.0/24"
+        },
+        "subnetMaskForGw": {
+            "value": "10.100.1.0/24"
+        }
+    }
+}
