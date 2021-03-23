@@ -6,16 +6,16 @@
             "value": "mvp"
         },
         "platformSubscriptionId": {
-            "value": "5b5b79cf-7e6a-4a79-8e41-ea366c866649"
+            "value": "ea459576-d258-49d4-82ae-6599dbeb5a2d"
         },
         "onlineLzSubscriptionId": {
             "value": [
-                "7ffa1276-9070-467f-ac5c-ad3402460bd2"
+                "f236e620-b55c-4b01-b08f-cd281d746b3b"
             ]
         },
         "corpLzSubscriptionId": {
             "value": [
-                "71b9c384-f4e6-494f-97c5-2e71fa6fa3e8"
+                "d07e4783-a6fd-4bcc-a2a4-b2e81e10263b"
             ]
         },
         "enableLogAnalytics": {
